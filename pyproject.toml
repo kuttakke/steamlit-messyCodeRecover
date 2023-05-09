@@ -3,7 +3,8 @@
 dev = [
     "black>=23.3.0",
 ]
-
+[tool.pdm.scripts]
+start = "streamlit run ./src/app.py"
 [project]
 name = ""
 version = ""
